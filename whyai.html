@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+     <style>
+     {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* ¢w¢w Header - Full Width Dark Background ¢w¢w */
+header {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+header ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+header ul li {
+    color: white;
+    line-height: 1.8;
+}
+header p {
+    color: white;
+    margin-bottom: 8px;
+}
+/* ¢w¢w Navigation Bar ¢w¢w */
+nav {
+    padding: 12px 40px;
+    border-bottom: 1px solid #ddd;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: #e74c3c;
+}
+/* ¢w¢w Main Content ¢w¢w */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+main h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+main h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #333
+}
+</style> 
+<head>
+    <meta charset="UTF-8">
+    <title>Why AI? </title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>CS1102 - Course Project -2025/2026 Semester B</h1>
+    <h2>Project Topic: For AI-Driven Detection of Synthetic Identity Fraud in Consumer Lending</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Information</a></li>
+        <li><a href="approach.html">Approach</a></li>
+        <li><a href="whyai.html">Why AI?</a></li>
+        <li><a href="casestudy.html">Case Study</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Why use AI? </h2>
+  <div style="display:flex; gap:20px;">
+
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; flex:1;">
+        <h3>Effective:</h3>
+        <p>AI improves fraud detection by identifying complex and evolving patterns that traditional systems and human analysts may overlook.</p>
+    </div>
+
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; flex:1;">
+        <h3>Efficient:</h3>
+        <p>AI processes massive volumes of data in real time, allowing fraud to be detected with greater speed, accuracy, and scale.</p>
+    </div>
+
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; flex:1;">
+        <h3>Adaptive:</h3>
+        <p>AI continues to learn from new fraud tactics, making it a strong long-term solution for protecting both lenders and borrowers.</p>
+    </div>
+    
+  </div> 
+    
+    <div>
+      <h2> What are the core techniques </h2>
+    
+        <h3> Graph Neural Networks (GNNs) </h3>
+        <p> GNNs improve fraud detection by analyzing the hidden relationships between connected data points, rather than examining each entity separately. This makes them especially effective at detecting synthetic identity fraud, where real and fake information is combined to appear legitimate.</p>
+        <p> Practical case:</p>
+      
+        <ul>
+          <p> <li>NVIDIA reported up to 40% improvement in fraud detection accuracy when combining GNNs with traditional models </li></p>
+          <p> <li>AWS helped its large e-commerce sports gadgets customer use GNNs to uncover 10 times more fraudulent accounts than previous models </li></p>
+          <p> <li>Global banks piloting GNNs have noted better results in credit card fraud detection, more accurate anti-money laundering alerts, and faster investigations</li></p>
+          
+        </ul>
+        
+        <h3> Anomaly detection algorithms</h3>
+        <p> Anomaly detection algorithms identify unusual patterns by learning what normal borrower behavior looks like and flagging activity that deviates from it. This helps detect fraud early, especially synthetic identities, by spotting subtle irregularities in applications, repayment behavior, and device or location usage. </p>
+        <ul>
+         <p> <li>Speed checking: If a large number of applications come from the same device or IP address within a short period, it would be flagged as an anomaly. Fraudulent groups often use the same infrastructure to submit multiple fake applications.</li> </p>
+         
+         <p> <li>Anomaly Behavior: Fake identities establish credit differently from real users. Real users' early credit records are often chaotic and inconsistent, while fake identities exhibit unusually "perfect" behavior, always making timely payments and deviating from preset patterns.</li>  </p>
+         
+         <p> <li>Group Analysis: The algorithm compares new customers' behavior with their own historical records and with the group of real customers who opened accounts at the same time. </li>  </p>
+        </ul>
+     </div>
+    </div>
+   
+</main>
+
+</body>
+</html>
