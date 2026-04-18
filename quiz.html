@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+     <style>
+     {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* ¢w¢w Header - Full Width Dark Background ¢w¢w */
+header {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+header ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+header ul li {
+    color: white;
+    line-height: 1.8;
+}
+header p {
+    color: white;
+    margin-bottom: 8px;
+}
+/* ¢w¢w Navigation Bar ¢w¢w */
+nav {
+    padding: 12px 40px;
+    border-bottom: 1px solid #ddd;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: #e74c3c;
+}
+/* ¢w¢w Main Content ¢w¢w */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+main h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+main h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #333
+}
+</style> 
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>CS1102 - Course Project -2025/2026 Semester B</h1>
+    <h2>Project Topic: For AI-Driven Detection of Synthetic Identity Fraud in Consumer Lending</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Information</a></li>
+        <li><a href="approach.html">Approach</a></li>
+        <li><a href="whyai.html">Why AI?</a></li>
+        <li><a href="casestudy.html">Case Study</a></li>
+        <li><a href="summary.html">Summary</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div id="quiz">
+    <h2>Quiz</h2>
+
+    <!-- Question 1 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>1. What happened in the 2024 Arup case?</strong></p>
+        <label><input type="radio" name="q1" value="a"> A) A hacker stole money by breaking into the bank system</label><br>
+        <label><input type="radio" name="q1" value="b"> B) A finance employee was tricked by deepfake technology into transferring HK$195 million</label><br>
+        <label><input type="radio" name="q1" value="c"> C) A CFO stole money from the company</label><br>
+        <label><input type="radio" name="q1" value="d"> D) An employee lost a company credit card</label><br>
+    </div>
+
+    <!-- Question 2 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>2. What is synthetic identity fraud?</strong></p>
+        <label><input type="radio" name="q2" value="a"> A) Stealing someone's complete identity</label><br>
+        <label><input type="radio" name="q2" value="b"> B) Hacking into a bank's database</label><br>
+        <label><input type="radio" name="q2" value="c"> C) Mixing real and fake information to create a new false identity</label><br>
+        <label><input type="radio" name="q2" value="d"> D) Using someone else's credit card without permission</label><br>
+    </div>
+
+    <!-- Question 3 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>3. How do Graph Neural Networks (GNNs) help detect fraud?</strong></p>
+        <label><input type="radio" name="q3" value="a"> A) By checking if ID documents look real</label><br>
+        <label><input type="radio" name="q3" value="b"> B) By analyzing hidden relationships and connections between data such as shared phone numbers or addresses</label><br>
+        <label><input type="radio" name="q3" value="c"> C) By blocking all applications from the same city</label><br>
+        <label><input type="radio" name="q3" value="d"> D) By comparing transaction amounts against a fixed limit</label><br>
+    </div>
+
+    <!-- Question 4 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>4. Why is traditional fraud detection not enough against synthetic identity fraud?</strong></p>
+        <label><input type="radio" name="q4" value="a"> A) It checks too much information at once</label><br>
+        <label><input type="radio" name="q4" value="b"> B) It is too expensive to run</label><br>
+        <label><input type="radio" name="q4" value="c"> C) It only checks if information looks real, not how all the pieces are connected</label><br>
+        <label><input type="radio" name="q4" value="d"> D) It cannot access Social Security numbers</label><br>
+    </div>
+
+    <!-- Question 5 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>5. What is one benefit of AI fraud detection for lenders?</strong></p>
+        <label><input type="radio" name="q5" value="a"> A) It removes the need for any human staff</label><br>
+        <label><input type="radio" name="q5" value="b"> B) It reduces fraud losses and speeds up loan approvals</label><br>
+        <label><input type="radio" name="q5" value="c"> C) It guarantees that no fraud will ever happen</label><br>
+        <label><input type="radio" name="q5" value="d"> D) It only works for large international banks</label><br>
+    </div>
+
+    <!-- Question 6 -->
+    <div style="border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:15px;">
+        <p><strong>6. What is a concern for borrowers about AI fraud detection?</strong></p>
+        <label><input type="radio" name="q6" value="a"> A) AI makes the loan process too fast</label><br>
+        <label><input type="radio" name="q6" value="b"> B) AI does not check enough information</label><br>
+        <label><input type="radio" name="q6" value="c"> C) AI could wrongly flag innocent people and raise privacy concerns</label><br>
+        <label><input type="radio" name="q6" value="d"> D) AI only benefits fraudsters</label><br>
+    </div>
+
+    <!-- Submit Button -->
+    <button onclick="checkAnswers()"
+        style="padding:10px 20px; background-color:#8B0000; color:white; border:none; border-radius:8px; cursor:pointer;">
+        Submit
+    </button>
+
+    <!-- Result -->
+    <div id="result" style="margin-top:15px; font-weight:bold;"></div>
+</div>
+
+<script>
+function checkAnswers() {
+    const answers = { q1:'b', q2:'c', q3:'b', q4:'c', q5:'b', q6:'c' };
+    let score = 0;
+
+    for (let q in answers) {
+        const selected = document.querySelector(`input[name="${q}"]:checked`);
+        if (selected && selected.value === answers[q]) {
+            score++;
+        }
+    }
+
+    let message = '';
+    if (score === 6) {
+        message = 'Perfect! You scored ' + score + ' out of 6!';
+    } else if (score >= 4) {
+        message = 'Good Job! You scored ' + score + ' out of 6!';
+    } else {
+        message = 'Keep Trying! You scored ' + score + ' out of 6. Try reading again!';
+    }
+
+    document.getElementById('result').innerHTML = message;
+}
+</script>
+</main>
+
+</body>
+</html>
